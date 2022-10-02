@@ -1,0 +1,48 @@
+Git Commands:-
+1)Git config
+Usage: git config –global user.name “[name]”
+
+Usage: git config –global user.email “[email address]”
+This command sets the author name and email address respectively to be used with your commits.
+
+2)git init
+Usage: git init [repository name]
+
+This command is used to start a new repository.
+
+3)git add
+Usage: git add [file]
+
+This command adds a file to the staging area.
+
+Usage: git add *
+
+This command adds one or more to the staging area.
+
+4. git status
+Usage: git status
+
+This command will show the modified status of an existing file and the file addition status of a new file, if any, that has to be committed.
+
+5)git commit
+Usage: git commit -m “[ Type in the commit message]”
+
+This command records or snapshots the file permanently in the version history.
+
+b)Usage: git commit -a
+
+This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
+
+6. git remote
+Usage: git remote add origin “[URL]”
+
+Once everything is ready on our local system, we can start pushing our code to the remote (central) repository of the project. For that, follow the below steps:
+7)git push
+Usage: git push origin [branch name]
+
+Suppose, we have made some changes in the file and want to push the changes to our remote repository on a particular branch. By using the command ‘git push,’ the local repository’s files can be synced with the remote repository on Github.
+
+8)git diff
+Usage: git diff
+
+This command shows the file differences which are not yet staged.
