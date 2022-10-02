@@ -1,2 +1,2 @@
-1)Python
-2) R
+1) python
+2) R-Programming
