@@ -1,0 +1,20 @@
+Git Commands:-
+1)Git config
+Usage: git config –global user.name “[name]”
+
+Usage: git config –global user.email “[email address]”
+This command sets the author name and email address respectively to be used with your commits.
+
+2)git init
+Usage: git init [repository name]
+
+This command is used to start a new repository.
+
+3)git add
+Usage: git add [file]
+
+This command adds a file to the staging area.
+
+Usage: git add *
+
+This command adds one or more to the staging area.
